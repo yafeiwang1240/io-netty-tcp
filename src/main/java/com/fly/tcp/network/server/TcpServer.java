@@ -1,6 +1,8 @@
 package com.fly.tcp.network.server;
 
+import com.alibaba.fastjson.JSONObject;
 import com.fly.tcp.protocol.MessageContext;
+import com.fly.tcp.protocol.VoidProtocol;
 import com.fly.tcp.protocol.codec.ProtocolDecoder;
 import com.fly.tcp.network.handler.IRequesthandler;
 import com.fly.tcp.protocol.codec.ProtocolEncoder;
@@ -77,7 +79,29 @@ public class TcpServer implements Closeable {
 
         @Override
         protected void messageReceived(ChannelHandlerContext ctx, MessageContext msg) throws Exception {
-
+            Class typeClass = msg.getMessage().getClass();
+            IRequesthandler handler = getHandler(typeClass);
+            logger.info("收到请求，类型{}，内容{}", typeClass, JSONObject.toJSONString(msg));
+            if(handler != null) {
+                try {
+                    Object result = handler.handle(msg.getMessage());
+                    MessageContext context = new MessageContext(msg.getMessageId(), result);
+                    logger.info("返回结果：" + JSONObject.toJSONString(context));
+                    ctx.channel().writeAndFlush(context);
+                } catch (Exception e) {
+                    logger.error("请求处理异常！" + JSONObject.toJSONString(msg.getMessage()), e);
+                    MessageContext context = new MessageContext(msg.getMessageId(), VoidProtocol.getInstance());
+                    context.setSucceed(false);
+                    context.setExceptionMessage(e.getMessage());
+                    ctx.channel().writeAndFlush(context);
+                }
+            } else {
+                MessageContext context = new MessageContext(msg.getMessageId(), VoidProtocol.getInstance());
+                context.setSucceed(false);
+                context.setExceptionMessage("不支持的消息类型！");
+                logger.info("返回结果：" + JSONObject.toJSONString(context));
+                ctx.channel().writeAndFlush(context);
+            }
         }
     }
 
