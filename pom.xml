@@ -6,9 +6,9 @@
 
   <groupId>com.github.yafeiwang1240</groupId>
   <artifactId>f-util-tcp</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>f-util-tcp</name>
+  <version>1.0</version>
 
+  <name>f-util-tcp</name>
   <description>io-netty封装</description>
   <url>https://github.com/yafeiwang1240/f-utils-tcp</url>
   <licenses>
