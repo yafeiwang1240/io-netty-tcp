@@ -34,7 +34,7 @@ public class ByteUtils {
         return value;
     }
 
-    public static byte[] itoBytes(long value) {
+    public static byte[] toBytes(long value) {
         byte[] bytes = new byte[8];
         long _value = value;
         for(int i = bytes.length - 1; i >= 0; i++) {

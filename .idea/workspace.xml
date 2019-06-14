@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b54bed9c-8a71-45e5-aebc-e4a59752c475" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/utils/ByteUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/utils/ByteUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,47 +18,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/utils/ByteUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/utils/ByteUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="134">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/MessageContext.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/handler/IRequesthandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/server/ITcpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
               <folding>
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/server/TcpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3721#3722#0" expanded="true" />
+                <element signature="e#3765#3766#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/server/TcpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1033">
+              <caret line="86" column="65" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/codec/FstSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/codec/ProtocolDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/de/ruedigermoeller/fst/2.56/fst-2.56-sources.jar!/org/nustaq/serialization/FSTConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/MessageContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-455">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/VoidProtocol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -97,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/codec/ProtocolEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/codec/FstSerializer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/utils/ByteUtils.java" />
       </list>
     </option>
   </component>
@@ -133,6 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,14 +237,73 @@
               <item name="f-util-tcp" type="b2602c69:ProjectViewProjectNode" />
               <item name="f-util-tcp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-util-tcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-util-tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-util-tcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-util-tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-util-tcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-util-tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-util-tcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-util-tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-util-tcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-util-tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
+              <item name="codec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="f-util-tcp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="f-util-tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,6 +381,8 @@
       <workItem from="1560223639860" duration="48000" />
       <workItem from="1560323663744" duration="24000" />
       <workItem from="1560330609253" duration="51000" />
+      <workItem from="1560482024155" duration="284000" />
+      <workItem from="1560499587487" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="io-netty异步通信架构">
       <created>1559831740639</created>
@@ -291,16 +419,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559999913737</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="包统一命名">
+      <created>1560482166791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560482166791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31098000" />
+    <option name="totallyTimeSpent" value="31642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30800325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30557802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -310,17 +446,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59857905" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28774422" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19715808" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22912966" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,7 +478,8 @@
     <MESSAGE value="Tcp client and server" />
     <MESSAGE value="decoder and encoder" />
     <MESSAGE value="deploy to maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy to maven" />
+    <MESSAGE value="包统一命名" />
+    <option name="LAST_COMMIT_MESSAGE" value="包统一命名" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Exception.java">
@@ -352,21 +489,6 @@
           <folding>
             <element signature="e#1247#1248#0" expanded="true" />
             <element signature="e#1270#1271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/network/exception/NotFoundServerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -438,23 +560,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/network/server/ITcpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -491,41 +603,6 @@
         <state relative-caret-position="-75" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/VoidProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/network/handler/IRequesthandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/network/handler/IRequestCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/network/server/TcpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="86" column="65" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/socket/nio/NioSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -541,42 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/ruedigermoeller/fst/2.56/fst-2.56-sources.jar!/org/nustaq/serialization/FSTConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2304">
-          <caret line="785" column="16" selection-start-line="785" selection-start-column="16" selection-end-line="785" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/codec/ProtocolEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/codec/ProtocolEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/codec/FstSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/codec/ProtocolDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -597,60 +642,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/network/server/TcpClient.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/exception/NotFoundServerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/handler/IRequestCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/handler/IRequesthandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/server/ITcpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/server/TcpClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1550#2005#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#3505#3506#0" expanded="true" />
-            <element signature="e#3549#3550#0" expanded="true" />
-            <element signature="e#3614#3615#0" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-            <element signature="e#3735#3736#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
             <element signature="e#3765#3766#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/network/server/TcpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/protocol/MessageContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="1033">
+          <caret line="86" column="65" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="65" />
           <folding>
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/tcp/utils/ByteUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/de/ruedigermoeller/fst/2.56/fst-2.56-sources.jar!/org/nustaq/serialization/FSTConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="400">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/codec/FstSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/codec/ProtocolDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/VoidProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/protocol/MessageContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang124/common/tcp/utils/ByteUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
