@@ -1,6 +1,6 @@
-package com.fly.tcp.protocol.codec;
+package com.githup.yafeiwang124.common.tcp.protocol.codec;
 
-import com.fly.tcp.utils.ByteUtils;
+import com.githup.yafeiwang124.common.tcp.utils.ByteUtils;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;

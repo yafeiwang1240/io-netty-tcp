@@ -1,4 +1,4 @@
-package com.fly.tcp.network.exception;
+package com.githup.yafeiwang124.common.tcp.network.exception;
 
 public class NotFoundServerException extends Exception{
 

@@ -1,4 +1,4 @@
-package com.fly.tcp.network.handler;
+package com.githup.yafeiwang124.common.tcp.network.handler;
 
 public interface IRequesthandler<P, R> {
     Class<P> messageType();

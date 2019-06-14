@@ -1,6 +1,6 @@
-package com.fly.tcp.network.server;
+package com.githup.yafeiwang124.common.tcp.network.server;
 
-import com.fly.tcp.network.handler.IRequestCallback;
+import com.githup.yafeiwang124.common.tcp.network.handler.IRequestCallback;
 
 import java.io.Closeable;
 

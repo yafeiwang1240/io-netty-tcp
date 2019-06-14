@@ -1,4 +1,4 @@
-package com.fly.tcp.protocol.codec;
+package com.githup.yafeiwang124.common.tcp.protocol.codec;
 
 import org.nustaq.serialization.FSTConfiguration;
 

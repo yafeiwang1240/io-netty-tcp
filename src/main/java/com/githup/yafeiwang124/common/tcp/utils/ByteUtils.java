@@ -1,4 +1,4 @@
-package com.fly.tcp.utils;
+package com.githup.yafeiwang124.common.tcp.utils;
 
 public class ByteUtils {
 

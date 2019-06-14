@@ -1,4 +1,4 @@
-package com.fly.tcp.protocol;
+package com.githup.yafeiwang124.common.tcp.protocol;
 
 import java.io.Serializable;
 
