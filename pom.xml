@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.yafeiwang1240</groupId>
-  <artifactId>f-util-tcp</artifactId>
-  <version>1.0</version>
+  <artifactId>io-netty-tcp</artifactId>
+  <version>1.0.0</version>
 
   <name>f-util-tcp</name>
   <description>io-netty封装</description>
