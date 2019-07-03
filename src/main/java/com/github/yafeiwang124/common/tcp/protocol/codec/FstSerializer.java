@@ -1,4 +1,4 @@
-package com.githup.yafeiwang124.common.tcp.protocol.codec;
+package com.github.yafeiwang124.common.tcp.protocol.codec;
 
 import org.nustaq.serialization.FSTConfiguration;
 

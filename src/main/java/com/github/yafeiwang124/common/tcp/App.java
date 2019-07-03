@@ -1,4 +1,4 @@
-package com.githup.yafeiwang124.common.tcp;
+package com.github.yafeiwang124.common.tcp;
 
 /**
  * Hello world!

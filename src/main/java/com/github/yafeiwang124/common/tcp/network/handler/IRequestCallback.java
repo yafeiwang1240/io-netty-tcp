@@ -1,4 +1,4 @@
-package com.githup.yafeiwang124.common.tcp.network.handler;
+package com.github.yafeiwang124.common.tcp.network.handler;
 
 public interface IRequestCallback {
     void invoke(Object message);

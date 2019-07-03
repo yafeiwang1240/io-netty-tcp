@@ -1,6 +1,6 @@
-package com.githup.yafeiwang124.common.tcp.network.server;
+package com.github.yafeiwang124.common.tcp.network.server;
 
-import com.githup.yafeiwang124.common.tcp.network.handler.IRequestCallback;
+import com.github.yafeiwang124.common.tcp.network.handler.IRequestCallback;
 
 import java.io.Closeable;
 
