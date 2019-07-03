@@ -8,9 +8,9 @@
   <artifactId>io-netty-tcp</artifactId>
   <version>1.0.0</version>
 
-  <name>f-util-tcp</name>
+  <name>io-netty-tcp</name>
   <description>io-netty封装</description>
-  <url>https://github.com/yafeiwang1240/f-utils-tcp</url>
+  <url>https://github.com/yafeiwang1240/io-netty-tcp</url>
   <licenses>
     <license>
       <name>The ApacheSoftware License, Version 2.0</name>
@@ -27,8 +27,8 @@
 
   <scm>
     <tag>master</tag>
-    <connection>https://github.com/yafeiwang1240/f-utils-tcp.git</connection>
-    <url>https://github.com/yafeiwang1240/f-utils-tcp.git</url>
+    <connection>https://github.com/yafeiwang1240/io-netty-tcp.git</connection>
+    <url>https://github.com/yafeiwang1240/io-netty-tcp.git</url>
   </scm>
 
   <properties>
