@@ -84,7 +84,7 @@
     </dependency>
 
     <dependency>
-      <groupId>com.githup.yafeiwang1240</groupId>
+      <groupId>com.github.yafeiwang1240</groupId>
       <artifactId>OBrien</artifactId>
       <version>1.0.0</version>
     </dependency>
