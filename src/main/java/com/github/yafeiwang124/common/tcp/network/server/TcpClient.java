@@ -55,7 +55,7 @@ public class TcpClient implements ITcpClient {
     private class ResponseHandler extends SimpleChannelInboundHandler<MessageContext> {
 
         @Override
-        protected void messageReceived(ChannelHandlerContext ctx, MessageContext msg) throws Exception {
+        protected void channelRead0(ChannelHandlerContext ctx, MessageContext msg) throws Exception {
             logger.info("收到响应，{}， {}", msg.getMessage(), JSONObject.toJSONString(msg));
             if(callbacks.containsKey(msg.getMessageId())) {
                 if(msg.isSucceed()) {

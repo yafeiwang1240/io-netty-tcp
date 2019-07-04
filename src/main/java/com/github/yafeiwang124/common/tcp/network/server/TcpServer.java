@@ -78,7 +78,7 @@ public class TcpServer implements Closeable {
     private class RequestMappingHandler extends SimpleChannelInboundHandler<MessageContext> {
 
         @Override
-        protected void messageReceived(ChannelHandlerContext ctx, MessageContext msg) throws Exception {
+        protected void channelRead0(ChannelHandlerContext ctx, MessageContext msg) throws Exception {
             Class typeClass = msg.getMessage().getClass();
             IRequesthandler handler = getHandler(typeClass);
             logger.info("收到请求，类型{}，内容{}", typeClass, JSONObject.toJSONString(msg));
