@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.github.yafeiwang124.common.tcp.protocol.MessageContext;
 import com.github.yafeiwang124.common.tcp.protocol.VoidProtocol;
 import com.github.yafeiwang124.common.tcp.protocol.codec.ProtocolDecoder;
-import com.github.yafeiwang124.common.tcp.network.handler.IRequesthandler;
+import com.github.yafeiwang124.common.tcp.network.handler.IRequestHandler;
 import com.github.yafeiwang124.common.tcp.protocol.codec.ProtocolEncoder;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -30,7 +30,7 @@ public class TcpServer implements Closeable {
     private ServerBootstrap serverBootstrap;
     private int port;
     private ChannelFuture channelFuture;
-    private Map<Class, IRequesthandler<?, ?>> handlerMap = new ConcurrentHashMap<>();
+    private Map<Class, IRequestHandler<?, ?>> handlerMap = new ConcurrentHashMap<>();
 
     public TcpServer() {
         this(1240, 2, 40);
@@ -42,12 +42,12 @@ public class TcpServer implements Closeable {
         this.workerGroup = new NioEventLoopGroup(workerThreads);
     }
 
-    public TcpServer addHandler(IRequesthandler handler) {
+    public TcpServer addHandler(IRequestHandler handler) {
         handlerMap.put(handler.messageType(), handler);
         return this;
     }
 
-    public TcpServer addHandlers(List<IRequesthandler> handlers) {
+    public TcpServer addHandlers(List<IRequestHandler> handlers) {
         handlers.forEach(item -> {
             addHandler(item);
         });
@@ -80,7 +80,7 @@ public class TcpServer implements Closeable {
         @Override
         protected void channelRead0(ChannelHandlerContext ctx, MessageContext msg) throws Exception {
             Class typeClass = msg.getMessage().getClass();
-            IRequesthandler handler = getHandler(typeClass);
+            IRequestHandler handler = getHandler(typeClass);
             logger.info("收到请求，类型{}，内容{}", typeClass, JSONObject.toJSONString(msg));
             if(handler != null) {
                 try {
@@ -110,7 +110,7 @@ public class TcpServer implements Closeable {
         return this;
     }
 
-    public IRequesthandler getHandler(Class type) {
+    public IRequestHandler getHandler(Class type) {
         if(type == null) {
             return null;
         }
@@ -123,7 +123,7 @@ public class TcpServer implements Closeable {
             return handlerMap.get(type);
         }
 
-        IRequesthandler handler = getHandler(type.getSuperclass());
+        IRequestHandler handler = getHandler(type.getSuperclass());
         if(handler != null) {
             return handler;
         }
