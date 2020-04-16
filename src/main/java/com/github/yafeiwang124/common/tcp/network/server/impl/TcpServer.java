@@ -1,4 +1,4 @@
-package com.github.yafeiwang124.common.tcp.network.server;
+package com.github.yafeiwang124.common.tcp.network.server.impl;
 
 import com.alibaba.fastjson.JSONObject;
 import com.github.yafeiwang124.common.tcp.protocol.MessageContext;

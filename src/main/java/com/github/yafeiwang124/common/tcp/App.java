@@ -1,11 +1,15 @@
 package com.github.yafeiwang124.common.tcp;
 
+import com.github.yafeiwang124.common.tcp.liaison.Liaison;
 import com.github.yafeiwang124.common.tcp.network.handler.IRequestHandler;
 import com.github.yafeiwang124.common.tcp.network.server.ITcpClient;
-import com.github.yafeiwang124.common.tcp.network.server.TcpClient;
-import com.github.yafeiwang124.common.tcp.network.server.TcpServer;
+import com.github.yafeiwang124.common.tcp.network.server.ServerInfo;
+import com.github.yafeiwang124.common.tcp.network.server.impl.TcpClient;
+import com.github.yafeiwang124.common.tcp.network.server.impl.TcpServer;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Hello world!
@@ -19,11 +23,17 @@ public class App
         tcpServer.addHandler(new JobConfigHandler());
         TcpServerThread tcpServerThread = new TcpServerThread(tcpServer);
         new Thread(tcpServerThread).start();
-        ITcpClient tcpClient = new TcpClient(1, "10.30.38.134", 1240);
+        Liaison liaison = new Liaison("tcp", 1, 60000, () -> {
+            List<ServerInfo> serverInfoList = new ArrayList<>();
+            serverInfoList.add(new ServerInfo("127.0.0.1", 1240));
+            return serverInfoList;
+        });
         JobConfig config = new JobConfig();
         config.setId(10L);
         config.setMsg("hhhhhhhhhh");
-        System.out.println(tcpClient.ask(config));
+        String str = liaison.ask(config);
+        System.out.println(str);
+        liaison.close();
     }
 
     public static class JobConfigHandler implements IRequestHandler<JobConfig, String> {

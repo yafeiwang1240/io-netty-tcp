@@ -3,6 +3,7 @@ package com.github.yafeiwang124.common.tcp.network.server;
 import com.github.yafeiwang124.common.tcp.network.handler.IRequestCallback;
 
 import java.io.Closeable;
+import java.util.concurrent.TimeUnit;
 
 public interface ITcpClient extends Closeable {
 
@@ -10,7 +11,7 @@ public interface ITcpClient extends Closeable {
 
     Object ask(Object request) throws Exception;
 
-    Object ask(Object request, long timeout) throws Exception;
+    Object ask(Object request, long timeout, TimeUnit unit) throws Exception;
 
     boolean isActive();
 }

@@ -1,4 +1,4 @@
-package com.github.yafeiwang124.common.tcp.pool;
+package com.github.yafeiwang124.common.tcp.liaison.pool;
 
 import java.io.Closeable;
 import java.io.IOException;

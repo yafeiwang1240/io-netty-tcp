@@ -1,4 +1,4 @@
-package com.github.yafeiwang124.common.tcp.pool;
+package com.github.yafeiwang124.common.tcp.liaison.pool;
 
 public interface ConnectionManager<T> {
     T build() throws Exception;

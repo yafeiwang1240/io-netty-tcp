@@ -1,7 +1,8 @@
-package com.github.yafeiwang124.common.tcp.network.server;
+package com.github.yafeiwang124.common.tcp.network.server.impl;
 
 import com.alibaba.fastjson.JSONObject;
 import com.github.yafeiwang124.common.tcp.network.handler.IRequestCallback;
+import com.github.yafeiwang124.common.tcp.network.server.ITcpClient;
 import com.github.yafeiwang124.common.tcp.protocol.MessageContext;
 import com.github.yafeiwang124.common.tcp.protocol.codec.ProtocolDecoder;
 import com.github.yafeiwang124.common.tcp.protocol.codec.ProtocolEncoder;
@@ -104,11 +105,11 @@ public class TcpClient implements ITcpClient {
     }
 
     @Override
-    public Object ask(Object request, long timeout) throws Exception {
+    public Object ask(Object request, long timeout, TimeUnit unit) throws Exception {
         CompletableFuture<Object> future = new CompletableFuture<>();
         IRequestCallback callback = new SynResponseCallback(future);
         tell(request, callback);
-        return future.get(timeout, TimeUnit.MILLISECONDS);
+        return future.get(timeout, unit);
     }
 
     @Override
