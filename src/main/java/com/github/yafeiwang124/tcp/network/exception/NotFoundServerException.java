@@ -1,4 +1,4 @@
-package com.github.yafeiwang124.common.tcp.network.exception;
+package com.github.yafeiwang124.tcp.network.exception;
 
 public class NotFoundServerException extends Exception{
 

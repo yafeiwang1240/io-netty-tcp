@@ -1,10 +1,10 @@
-package com.github.yafeiwang124.common.tcp.liaison;
+package com.github.yafeiwang124.tcp.liaison;
 
-import com.github.yafeiwang124.common.tcp.liaison.pool.ConnectionManager;
-import com.github.yafeiwang124.common.tcp.network.handler.IServerInfoHandler;
-import com.github.yafeiwang124.common.tcp.network.server.ITcpClient;
-import com.github.yafeiwang124.common.tcp.network.server.ServerInfo;
-import com.github.yafeiwang124.common.tcp.network.server.impl.TcpClient;
+import com.github.yafeiwang124.tcp.liaison.pool.ConnectionManager;
+import com.github.yafeiwang124.tcp.network.handler.IServerInfoHandler;
+import com.github.yafeiwang124.tcp.network.server.ITcpClient;
+import com.github.yafeiwang124.tcp.network.server.ServerInfo;
+import com.github.yafeiwang124.tcp.network.server.impl.TcpClient;
 
 import java.io.IOException;
 import java.util.List;

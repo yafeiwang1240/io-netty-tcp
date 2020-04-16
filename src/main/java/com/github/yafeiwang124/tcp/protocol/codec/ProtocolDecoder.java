@@ -1,4 +1,4 @@
-package com.github.yafeiwang124.common.tcp.protocol.codec;
+package com.github.yafeiwang124.tcp.protocol.codec;
 
 import com.github.yafeiwang1240.obrien.lang.Bytes;
 import io.netty.buffer.ByteBuf;

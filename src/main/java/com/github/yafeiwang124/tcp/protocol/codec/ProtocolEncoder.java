@@ -1,6 +1,6 @@
-package com.github.yafeiwang124.common.tcp.protocol.codec;
+package com.github.yafeiwang124.tcp.protocol.codec;
 
-import com.github.yafeiwang124.common.tcp.protocol.MessageContext;
+import com.github.yafeiwang124.tcp.protocol.MessageContext;
 import com.github.yafeiwang1240.obrien.lang.Bytes;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

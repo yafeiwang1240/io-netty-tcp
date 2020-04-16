@@ -1,8 +1,8 @@
-package com.github.yafeiwang124.common.tcp.liaison;
+package com.github.yafeiwang124.tcp.liaison;
 
-import com.github.yafeiwang124.common.tcp.liaison.pool.ShareablePool;
-import com.github.yafeiwang124.common.tcp.network.handler.IServerInfoHandler;
-import com.github.yafeiwang124.common.tcp.network.server.ITcpClient;
+import com.github.yafeiwang124.tcp.liaison.pool.ShareablePool;
+import com.github.yafeiwang124.tcp.network.handler.IServerInfoHandler;
+import com.github.yafeiwang124.tcp.network.server.ITcpClient;
 
 import java.io.Closeable;
 import java.io.IOException;

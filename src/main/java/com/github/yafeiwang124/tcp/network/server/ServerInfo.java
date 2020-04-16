@@ -1,4 +1,4 @@
-package com.github.yafeiwang124.common.tcp.network.server;
+package com.github.yafeiwang124.tcp.network.server;
 
 import java.io.Serializable;
 

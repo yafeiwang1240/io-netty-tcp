@@ -1,6 +1,6 @@
-package com.github.yafeiwang124.common.tcp.network.server;
+package com.github.yafeiwang124.tcp.network.server;
 
-import com.github.yafeiwang124.common.tcp.network.handler.IRequestCallback;
+import com.github.yafeiwang124.tcp.network.handler.IRequestCallback;
 
 import java.io.Closeable;
 import java.util.concurrent.TimeUnit;

@@ -1,11 +1,9 @@
-package com.github.yafeiwang124.common.tcp;
+package com.github.yafeiwang124.tcp;
 
-import com.github.yafeiwang124.common.tcp.liaison.Liaison;
-import com.github.yafeiwang124.common.tcp.network.handler.IRequestHandler;
-import com.github.yafeiwang124.common.tcp.network.server.ITcpClient;
-import com.github.yafeiwang124.common.tcp.network.server.ServerInfo;
-import com.github.yafeiwang124.common.tcp.network.server.impl.TcpClient;
-import com.github.yafeiwang124.common.tcp.network.server.impl.TcpServer;
+import com.github.yafeiwang124.tcp.liaison.Liaison;
+import com.github.yafeiwang124.tcp.network.handler.IRequestHandler;
+import com.github.yafeiwang124.tcp.network.server.ServerInfo;
+import com.github.yafeiwang124.tcp.network.server.impl.TcpServer;
 
 import java.io.Serializable;
 import java.util.ArrayList;

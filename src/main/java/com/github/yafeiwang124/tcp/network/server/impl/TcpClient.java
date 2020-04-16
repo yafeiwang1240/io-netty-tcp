@@ -1,11 +1,11 @@
-package com.github.yafeiwang124.common.tcp.network.server.impl;
+package com.github.yafeiwang124.tcp.network.server.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.github.yafeiwang124.common.tcp.network.handler.IRequestCallback;
-import com.github.yafeiwang124.common.tcp.network.server.ITcpClient;
-import com.github.yafeiwang124.common.tcp.protocol.MessageContext;
-import com.github.yafeiwang124.common.tcp.protocol.codec.ProtocolDecoder;
-import com.github.yafeiwang124.common.tcp.protocol.codec.ProtocolEncoder;
+import com.github.yafeiwang124.tcp.network.handler.IRequestCallback;
+import com.github.yafeiwang124.tcp.network.server.ITcpClient;
+import com.github.yafeiwang124.tcp.protocol.MessageContext;
+import com.github.yafeiwang124.tcp.protocol.codec.ProtocolDecoder;
+import com.github.yafeiwang124.tcp.protocol.codec.ProtocolEncoder;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
